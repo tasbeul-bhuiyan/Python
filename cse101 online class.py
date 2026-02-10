@@ -47,6 +47,11 @@ except:
     print("An error occurred")
 a=[1,2,3,4,5]
 print(f"hey {a[3]}")
-    
+def repeat_word(word,times):
+    a=word*times
+    print(a)
+b=input("Enter a word: ")
+c=int(input("Enter how many times do you want to repeat it: "))
+repeat_word(b,c)
 
 
