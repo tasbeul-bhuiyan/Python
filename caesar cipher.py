@@ -21,9 +21,7 @@ def encrypt(text, shift):
     
 def decrypt(text, shift):
     return caesar(text, shift, encrypt=False)
-
-encrypted_text = encrypt('freeCodeCamp', 3)
-print(encrypted_text)
-encrypted_text='Pbhentr vf sbhaq va hayvxryl cynprf.'
-decrypted_text=decrypt(encrypted_text,13)
-print(decrypted_text)
+a=input("Enter a text to encrypt: ")
+b=input('Enter a name to decrypt: ')
+print(encrypt(a, 3))
+print(decrypt(b,3))
